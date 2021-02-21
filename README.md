@@ -1,2 +1,2 @@
 # python3
-Python 3 REferences and exercises
+Python 3 References and exercises
