@@ -47,3 +47,25 @@ Escape Meaning
 \xhh Character with the given 8-bit hexadecimal value
 ```
 
+If we want to use quotes inside a normal quoted string we can do so without
+formality if they are different from the delimiting quotes; otherwise, we must
+escape them:
+
+```python
+a = "Single 'quotes' are fine; \"doubles\" must be escaped."
+b = 'Single \'quotes\' must be escaped; "doubles" are fine.'
+```
+
+Python uses newline as its statement terminator, except inside parentheses
+(()), square brackets ([]), braces ({}), or triple quoted strings. Newlines can be
+used without formality in triple quoted strings, and we can include newlines
+in any string literal using the \n escape sequence. All of Python’s escape sequences
+are shown in Table 2.7.In some situations—for example,when writing
+regular expressions—we need to create strings with lots of literal backslashes.
+(Regular expressions are the subject of Chapter 13.) This can be inconvenient
+since each one must be escaped:
+
+```python
+import re
+phone1 = re.compile("^((?:[(]\\d+[)])?\\s*\\d+(?:-\\d+)?)$")
+```
