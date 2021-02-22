@@ -27,7 +27,7 @@ so this particular string is actually only two lines long."""
 
 Python’s String Escapes
 
-`
+```
 Escape Meaning
 \newline Escape (i.e., ignore) the newline
 \\ Backslash (\)
@@ -45,4 +45,5 @@ Escape Meaning
 \Uhhhhhhhh Unicode character with the given 32-bit hexadecimal value
 \v ASCII vertical tab (VT)
 \xhh Character with the given 8-bit hexadecimal value
-`
+```
+
