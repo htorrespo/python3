@@ -24,3 +24,25 @@ text = """A triple quoted string like this can include 'quotes' and
 "quotes" without formality. We can also escape newlines \
 so this particular string is actually only two lines long."""
 ```
+
+Python’s String Escapes
+
+`
+Escape Meaning
+\newline Escape (i.e., ignore) the newline
+\\ Backslash (\)
+\' Single quote (’)
+\" Double quote (")
+\a ASCII bell (BEL)
+\b ASCII backspace (BS)
+\f ASCII formfeed (FF)
+\n ASCII linefeed (LF)
+\N{name} Unicode character with the given name
+\ooo Character with the given octal value
+\r ASCII carriage return (CR)
+\t ASCII tab (TAB)
+\uhhhh Unicode character with the given 16-bit hexadecimal value
+\Uhhhhhhhh Unicode character with the given 32-bit hexadecimal value
+\v ASCII vertical tab (VT)
+\xhh Character with the given 8-bit hexadecimal value
+`
